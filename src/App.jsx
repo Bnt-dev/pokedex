@@ -17,9 +17,10 @@ function App() {
   return (
     <div>
       <MyTitle />
-      <PokemonCard pokemon={pokemonList[1].name} imgPokemon={pokemonList[1].imgSrc} />
+      <PokemonCard pokemon={pokemonList[0]} />
     </div>
   );
 }
+
 
 export default App;
