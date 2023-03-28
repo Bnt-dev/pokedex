@@ -1,5 +1,5 @@
 function MyTitle() {
-  return <h1>Pokedex #151 : Mew</h1>;
+  return <h1>Pokedex</h1>;
 }
 
 export default MyTitle;
