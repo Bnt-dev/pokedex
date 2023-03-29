@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const pokemonCard = ({ pokemon }) => {
   return <div>
-    <div>{pokemon.name}</div>
+    <div className="pokemonName">{pokemon.name}</div>
     <img src={pokemon.imgSrc} alt={pokemon.name} />
   </div>
 }
